@@ -1,12 +1,11 @@
-const url = 'https://json-server--3000.local.webcontainer.io/comments';
+import express from 'express'
 
-fetch(url)
-  .then((r) => r.json())
-  .then(
-    (json) =>
-      (document.getElementById('output').innerHTML = JSON.stringify(
-        json,
-        null,
-        2
-      ))
-  );
+const app = express()
+
+app.get('/', (req, res) => {
+  res.send('Hello World')
+})
+
+app.listen(3000, () => {
+  console.log('Server is running on http://localhost:3000')
+})

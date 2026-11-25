@@ -15,5 +15,22 @@
   ],
   "profile": {
     "name": "typicode"
-  }
+  },
+  "usuarios": [
+    {
+      "nome": "Patrícia Costa",
+      "email": "ricardo@email.com",
+      "id": 7
+    },
+    {
+      "nome": "carlos nascimento santos",
+      "email": "ricardo@email.com.br",
+      "id": 8
+    },
+    {
+      "nome": "marcia dos santos mendes",
+      "email": "marciasantos@hotmail.com",
+      "id": 9
+    }
+  ]
 }
